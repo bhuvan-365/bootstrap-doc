@@ -1,0 +1,26 @@
+header.banner{
+    padding-top: 10.5rem;
+    padding-bottom: 6rem;
+    text-align: center;
+    color: white;
+    background-image: url("/bootstrap-doc/image/img/header-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+header.banner .banner-subheading{
+ 
+    font-size: 1.5rem;
+
+    line-height: 1.5rem;
+    margin-bottom: 25px;
+    font-family:  "Montserrat",sans-serif ;    
+}
+header.banner .banner-heading{
+    font-size: 3.25rem;
+    font-weight: 700;
+    line-height: 3.25rem;
+    margin-bottom: 2rem;
+    font-family: "Montserrat",sans-serif ;
+}
