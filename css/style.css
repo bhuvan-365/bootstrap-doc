@@ -59,4 +59,48 @@ header.banner .btn {
         margin-right: auto;
         margin-left: auto;
     }
+    .page-section{
+        padding: 9rem 0;
+    }
+    #mainNav{
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        background-color: #212529;
+    }
+    #mainNav .navbar-toggler{
+        padding: 0.75rem;
+        font-size: 0.75rem;
+        text-transform: uppercase;
+        font-weight: 700;
+        
+    }
+#mainNav .navbar-brand{
+    color: #b99b32;
+    font-family: "Montserrat";
+    font-weight: 700;
+    letter-spacing: 0.0625rem;
+    text-transform: uppercase;
+}
+/* #mainNav img{
+    height: 1.5rem;
+} */
+#mainNav .navbar-nav .nav-item .nav-link{
+    font-family: "Montserrat";
+    font-size: 0.95rem;
+    color: white;
+    letter-spacing: 0.0625rem;
+}
+#mainNav .navbar-nav .nav-item .nav-link:hover{
+
+    color: #b99b32;
+}
+}
+.page-section{
+    padding: 6rem 0;
+}
+.section-subheading{
+    font-size: 1rem;
+    font-weight: 400;
+    font-style: italic;
+    margin-bottom: 4rem;
 }
