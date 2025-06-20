@@ -3,7 +3,9 @@
 * {
     font-family: "Poppins", sans-serif;
 }
-
+.nav-item{
+        margin-right: 12px;
+}
 header.banner {
     padding-top: 10.5rem;
     padding-bottom: 6rem;
@@ -16,17 +18,16 @@ header.banner {
     height: 100vh;
 }
 
-header.banner .banner-subheading {
+.banner-subheading {
 
-    font-size: 1.5rem;
-
-    line-height: 1.5rem;
+    font-size: 1.4rem;
+    /* line-height: 0.4rem; */
     margin-bottom: 25px;
-    font-family: "Montserrat", sans-serif;
+    /* font-family: "Montserrat", sans-serif; */
 }
 
-header.banner .banner-heading {
-    font-size: 3.25rem;
+.banner-heading {
+    font-size: 2rem;
     font-weight: 700;
     line-height: 3.25rem;
     margin-bottom: 2rem;
@@ -36,7 +37,7 @@ header.banner .banner-heading {
 header.banner .btn {
     background-color: #b99b32;
     border: none;
-    font-weight: 800;
+      font-weight: 600;
 
 }
 
@@ -47,7 +48,7 @@ header.banner .btn {
     }
 
     header.banner .banner-subheading {
-        font-size: 2.25rem;
+        font-size: 1.6rem;
         line-height: 2.25rem;
         margin-bottom: 2rem;
 
@@ -65,8 +66,8 @@ header.banner .btn {
     }
 
     #mainNav {
-        padding-top: 1rem;
-        padding-bottom: 1rem;
+        /* padding-top: 1rem;
+        padding-bottom: 1rem; */
         background-color: #212529;
     }
 
