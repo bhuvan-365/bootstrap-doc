@@ -3,9 +3,11 @@
 * {
     font-family: "Poppins", sans-serif;
 }
-.nav-item{
-        margin-right: 12px;
+
+.nav-item {
+    margin-right: 12px;
 }
+
 header.banner {
     padding-top: 10.5rem;
     padding-bottom: 6rem;
@@ -37,7 +39,7 @@ header.banner {
 header.banner .btn {
     background-color: #b99b32;
     border: none;
-      font-weight: 600;
+    font-weight: 600;
 
 }
 
@@ -119,12 +121,14 @@ header.banner .btn {
     margin-right: auto;
 
 }
-#portfolio .portfolio-item .portfolio-link  {
+
+#portfolio .portfolio-item .portfolio-link {
     position: relative;
-   display: block;
-   margin: 0;
+    display: block;
+    margin: 0;
 }
-#portfolio .portfolio-item .portfolio-link .portfolio-hover{
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover {
     position: absolute;
     top: 0;
     left: 0;
@@ -137,30 +141,73 @@ header.banner .btn {
     opacity: 0;
     transition: opacity 0.3s ease-in-out;
 }
-#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content{
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
     color: white;
     font-size: 1.25rem;
-    
+
 }
+
 #portfolio .portfolio-item .portfolio-link:hover .portfolio-hover {
-opacity: 1;
+    opacity: 1;
 
 }
-#portfolio .portfolio-item .portfolio-caption{
-   padding: 1.5rem;
-   background-color: #8e9aa7;
-   text-align: center;
+
+#portfolio .portfolio-item .portfolio-caption {
+    padding: 1.5rem;
+    background-color: #8e9aa7;
+    text-align: center;
 
 }
+
 #portfolio .portfolio-item .portfolio-caption .portfolio-caption-heading {
     font-size: 1.25rem;
     font-family: "Montserrat";
     font-weight: 700;
     margin-bottom: 0.5rem;
 }
-#portfolio .portfolio-item .portfolio-caption .portfolio-caption-subheading{
-font-style: italic;
+
+#portfolio .portfolio-item .portfolio-caption .portfolio-caption-subheading {
+    font-style: italic;
     font-size: 0.875rem;
     font-weight: 400;
     color: #f8f9fa;
+}
+
+.timeline {
+    position: relative;
+    padding: 0;
+    list-style: none;
+}
+
+.timeline::before {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 40px;
+    width: 4px;
+    margin-left: -1.5px;
+    content: "";
+    background-color: #525c66;
+}
+
+.timeline li {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 50px;
+}
+.timeline li:after, .timeline li:before {
+display: table;
+    content: "";
+}
+.timeline li:after {
+    clear: both;
+}
+.timeline li .timeline-panel {
+    position: relative;
+    width: 100%;
+    float: right;
+    padding: 20px;
+    padding: 0 20px 0 100px;
+   
 }
