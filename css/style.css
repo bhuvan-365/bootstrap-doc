@@ -23,9 +23,9 @@ header.banner {
 .banner-subheading {
 
     font-size: 1.4rem;
-    /* line-height: 0.4rem; */
+
     margin-bottom: 25px;
-    /* font-family: "Montserrat", sans-serif; */
+
 }
 
 .banner-heading {
@@ -68,8 +68,7 @@ header.banner .btn {
     }
 
     #mainNav {
-        /* padding-top: 1rem;
-        padding-bottom: 1rem; */
+
         background-color: #212529;
     }
 
@@ -89,9 +88,6 @@ header.banner .btn {
         text-transform: uppercase;
     }
 
-    /* #mainNav img{
-    height: 1.5rem;
-} */
     #mainNav .navbar-nav .nav-item .nav-link {
         font-family: "Montserrat";
         font-size: 0.95rem;
