@@ -211,3 +211,51 @@ display: table;
     padding: 0 20px 0 100px;
    
 }
+.timeline li .timeline-panel:before {
+    right: auto;
+    left: -14px;
+    border-right-width: 14px;
+    border-left-width: 0;
+}
+ .timeline li .timeline-panel:after{
+
+      right: auto;
+    left: -15px;
+    border-right-width: 15px;
+    border-left-width: 0;
+}
+.timeline li .timeline-image{
+    position:absolute;
+    z-index: 100;
+    left: 0;
+    width: 80px;
+    height: 80px;
+    margin-left: 0;
+    text-align: center;
+    color: white;
+    border: 6px solid #bbbdc0;
+    border-radius: 100%;
+    background-color: #ffc800;
+}
+.timeline li .timeline-image img {
+
+    border-radius: 100%;
+        background-color: #ffc800;
+}
+.timeline li .timeline-image h4, .timeline li .timeline-image .subheading {
+    margin-top: 10px;
+    font-size: 0.875rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.timeline li .timeline-inverted .timeline-panel{
+    float: right;
+    padding: 0 20px 0 100px ;
+    text-align: left;
+}
+.timeline li .timeline-inverted .timeline-panel:before {
+    right: auto;
+    left: -15px;
+    border-right-width: 15px;
+    border-left-width: 0px;
+}
