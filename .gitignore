@@ -1,0 +1,55 @@
+# Node modules
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE and editor settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS-specific files
+*.swp
+*.bak
+*.tmp
+
+# Dependency directories
+jspm_packages/
+bower_components/
+
+# Coverage reports
+coverage/
+*.lcov
+
+# Test and debug folders
+test-output/
+cypress/videos/
+cypress/screenshots/
+
+# Optional: Ignore output from static site generators
+public/
+
+# Optional: Ignore compiled JS from TypeScript
+*.tsbuildinfo
+
+# Optional: Ignore parcel/cache
+.cache/
+.parcel-cache/
