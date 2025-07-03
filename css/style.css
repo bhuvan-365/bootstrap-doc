@@ -277,3 +277,25 @@ margin-bottom: 0;
 .timeline .timelineline-body ul, .timeline .timeline-body p {
     margin-bottom: 0;
 }
+@media screen and (min-width:768px){
+    .timeline::before{
+        left: 50%;
+    
+    }
+    .timeline li{
+        min-height: 100px;
+        margin-bottom: 100px;
+    }
+    .timeline li .timeline-panel {
+        width: 43%;
+        float: left;
+        padding: 20px;
+        padding: 0 20px 20px 30px;
+    }
+    .timeline li .timeline-image{
+        left: 50%;
+        width:100px;
+        height: 100px;
+        margin-left: -50px;
+    }
+}
