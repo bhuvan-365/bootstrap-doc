@@ -354,3 +354,74 @@ header.banner .btn {
 
 
 }
+
+
+
+
+footer{
+    background-color: #bbb5b5;
+    padding: 20px;
+    text-align: center;
+    color: #786767;
+}
+.foot{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 0.7rem;
+    padding-top: 25px;
+}
+.cmpName{
+    font-size: 0.8rem;
+    color: #786767;
+    font-weight: 800;
+}
+.foot1{
+ 
+}
+.foot2{
+   
+}
+li{
+    list-style: none;
+}
+.foot1 img{
+    width: 48px;
+}
+.foot2,.foot3,.foot4  {
+text-align: left;
+
+}
+.line{
+    background-color: #786767;
+    height: 1px;
+    width: 70%;
+    
+    margin: 30px auto;
+ 
+}
+.bottom ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.bottom ul li {
+ border: 1px solid #786767;
+    padding: 6px 8px;
+    border-radius: 50%;
+ 
+}
+.copyright p{
+    font-size: 0.7rem;
+    color: #786767;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.toppick a{
+
+color:#1e1e2f;
+text-decoration: none;
+
+}
